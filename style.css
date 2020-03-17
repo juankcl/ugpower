@@ -25,30 +25,6 @@
 .cuerpo {
 	background-color: #35363a;
 }
-.cabecera {
-	background-color: #006699;
-}
-.menu {
-	background-color: #99cc00;
-}
-.noticias {
-	background-color: #eeeeee;
-}
-.nPrincipal {
-	background-color: #006699;
-}
-.nSecundaria {
-	background-color: #006699;
-}
-.video {
-	background-color: #dc0606;
-}
-.formulario {
-	background-color: #eeeeee;
-}
-.pie {
-	background-color: #eeeeee;
-}
 
 /* ......... */
 
@@ -144,7 +120,7 @@
 	margin: 32px 0 0;
 	text-align: center;
 }
-
+/* blog */
 section.blog-post-area {
 	margin-top: 50px;
 }
