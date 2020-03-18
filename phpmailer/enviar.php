@@ -10,11 +10,11 @@ if(isset($POST['submit'])){
     $mail->Port = 587;
     $mail->SMTPAuth=true;
     $mail->SMTPSecure='tls';
-    $mail->Username = 'esjuankarlos1@gmail.com';
-    $mail->Password = '2+2=4juan';
+    $mail->Username = 'solido.en.radianes@gmail.com';
+    $mail->Password = 'correodeprueba';
 
     $mail->setFrom($_POST['correo'],$_POST['nombre']);
-    $mail->addAddress('esjuankarlos1@gmail.com');
+    $mail->addAddress('solido.en.radianes@gmail.com');
     $mail->addReplyTo($_POST['correo'],$_POST['nombre']);
 
     $mail->isHTML(true);
