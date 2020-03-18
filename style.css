@@ -756,3 +756,26 @@ section.blog-post-area h4 span.author-name {
 	margin-right: 30px;
 	padding: 10px;
 }
+.formulario {
+	text-align: justify;
+	color: #eeeeee;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+input[type=submit] {
+	background: #99cc00;
+	color: #35363a;
+	text-transform: uppercase;
+	font-weight: bolder;
+	border: 0px solid#35363a;
+	border-radius: 4px;
+}
+input[type=reset] {
+	background: #99cc00;
+	color: #35363a;
+	text-transform: uppercase;
+	font-weight: bolder;
+	border: 0px solid#35363a;
+	border-radius: 4px;
+}
