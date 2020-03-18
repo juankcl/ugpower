@@ -2,6 +2,8 @@
 $result = "";
 if(isset($POST['submit'])){
     required 'phpmailer/PHPMailerAutoload.php';
+    required 'phpmailer/class.smtp.php';
+    required 'phpmailer/class.phpmailer.php';
     $mail = new PHPMailer;
     $mail->isSMTP();
     $mail->Host='smtp.gmail.com';
