@@ -35,6 +35,10 @@
 }
 
 /* MENU UG */
+.imagen {
+	width: 100%;
+	height: 100%;
+}
 .wrapper header.header .logo {
 }
 
@@ -756,12 +760,19 @@ section.blog-post-area h4 span.author-name {
 	margin-right: 30px;
 	padding: 10px;
 }
+.contacto {
+	background-size: 50% 50%;
+	color: #eeeeee;
+	display: inline-block;
+	padding-left: 200px;
+}
 .formulario {
-	text-align: justify;
+	text-align: left;
 	color: #eeeeee;
 	text-decoration: none;
 	text-transform: uppercase;
-	text-align: center;
+	float: right;
+	padding-right: 200px;
 }
 input[type=submit] {
 	background: #99cc00;

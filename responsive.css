@@ -145,64 +145,80 @@
 	}
 
 	.wrapper header.header .menu ul li.active a {
-		background: #0099cc;
+		background: #cc0000;
 	}
 	/* POST de pagina */
-	.wrapper section.bg-text-area .bg-text {
-		background-size: 100% 50%;
-		padding: 50px 55px;
+	.contacto {
+		background-size: 100%;
+		color: #eeeeee;
+		display: block;
+		padding-left: 200px;
 	}
-
-	.wrapper section.bg-text-area .container {
-		float: left;
-	}
-
-	.wrapper section.bg-text-area .bg-text h3 {
-		text-align: none;
-	}
-
-	.wrapper section.bg-text-area .bg-text p {
-		text-align: justify;
+	.formulario {
+		text-align: left;
+		color: #eeeeee;
+		text-decoration: none;
+		text-transform: uppercase;
 		float: none;
+		padding-left: 200px;
 	}
+	.wrapper section {
+		padding-bottom: 5px;
+		.wrapper section.bg-text-area .bg-text {
+			background-size: 100% 50%;
+			padding: 50px 55px;
+		}
 
-	/* blog */
-	section.blog-post-area {
-		margin-top: 10px;
+		.wrapper section.bg-text-area .container {
+			float: left;
+		}
+
+		.wrapper section.bg-text-area .bg-text h3 {
+			text-align: none;
+		}
+
+		.wrapper section.bg-text-area .bg-text p {
+			text-align: justify;
+			float: none;
+		}
+
+		/* blog */
+		section.blog-post-area {
+			margin-top: 10px;
+		}
+
+		section.blog-post-area .big-image {
+			float: left;
+			margin-top: 50px;
+			width: 100%;
+		}
+
+		section.blog-post-area .big-text {
+			width: 100%;
+			padding-right: 10px;
+		}
+
+		section.blog-post-area img {
+			width: 100%;
+		}
+
+		section.blog-post-area .big-text h3 {
+			margin: 0px;
+		}
+
+		.blog-post-area .pegination {
+			margin-top: 60px;
+			margin-bottom: 60px;
+		}
+
+		.blog-post-area .blog-post-area-style {
+			margin: 0px;
+		}
+
+		.single-blog-area {
+			margin-bottom: 10px;
+		}
 	}
-
-	section.blog-post-area .big-image {
-		float: left;
-		margin-top: 50px;
-		width: 100%;
-	}
-
-	section.blog-post-area .big-text {
-		width: 100%;
-		padding-right: 10px;
-	}
-
-	section.blog-post-area img {
-		width: 100%;
-	}
-
-	section.blog-post-area .big-text h3 {
-		margin: 0px;
-	}
-
-	.blog-post-area .pegination {
-		margin-top: 60px;
-		margin-bottom: 60px;
-	}
-
-	.blog-post-area .blog-post-area-style {
-		margin: 0px;
-	}
-
-	.single-blog-area {
-		margin-bottom: 10px;
-	}
-
 	.single-blog-area .for-style {
 		margin-bottom: 10px;
 	}
@@ -265,6 +281,11 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 	/* MENU UG */
+	.wrapper header.header {
+		float: left;
+		padding-bottom: 10px;
+		margin-right: 500px;
+	}
 	.wrapper header.header .menu ul {
 		float: left;
 	}
@@ -277,6 +298,22 @@
 		background: #0099cc;
 	}
 	/* POST de pagina */
+	.contacto {
+		background-size: 100%;
+		color: #eeeeee;
+		display: inline-block;
+		padding-left: 200px;
+	}
+	.formulario {
+		text-align: left;
+		color: #eeeeee;
+		text-decoration: none;
+		text-transform: uppercase;
+		float: left;
+		padding-left: 200px;
+	}
+	.wrapper section {
+	}
 	.wrapper section.bg-text-area .bg-text {
 		background-size: 100% 50%;
 		padding: 50px 55px;
@@ -323,6 +360,7 @@
 	.blog-post-area .pegination {
 		margin-top: 60px;
 		margin-bottom: 60px;
+		padding-top: 6800px;
 	}
 
 	.blog-post-area .blog-post-area-style {
@@ -397,6 +435,8 @@
 	/* MENU UG */
 	.wrapper header.header .menu ul {
 		float: left;
+		margin-right: 400px;
+		padding: 25px;
 	}
 
 	.wrapper header.header .menu ul li {
@@ -404,9 +444,23 @@
 	}
 
 	.wrapper header.header .menu ul li.active a {
-		background: #0099cc;
+		background: #cc00a0;
 	}
 	/* POST de pagina */
+	.contacto {
+		background-size: 100%;
+		color: #eeeeee;
+		display: inline-block;
+		padding-left: 50px;
+	}
+	.formulario {
+		text-align: left;
+		color: #eeeeee;
+		text-decoration: none;
+		text-transform: uppercase;
+		float: none;
+		padding-left: 10px;
+	}
 	.wrapper section.bg-text-area .bg-text {
 		background-size: 100% 50%;
 		padding: 50px 55px;
@@ -527,16 +581,36 @@
 	/* MENU UG */
 	.wrapper header.header .menu ul {
 		float: left;
+		background-size: 100%;
+		size: initial;
+		margin-right: 250px;
+		padding: 4px;
 	}
 
 	.wrapper header.header .menu ul li {
-		display: block;
+		display: table;
+		background-size: 100% 100%;
 	}
 
 	.wrapper header.header .menu ul li.active a {
-		background: #0099cc;
+		background: #42b400;
+		background-size: 100%;
 	}
 	/* POST de pagina */
+	.contacto {
+		background-size: 100%;
+		color: #eeeeee;
+		display: inline-block;
+		padding-left: 50px;
+	}
+	.formulario {
+		text-align: left;
+		color: #eeeeee;
+		text-decoration: none;
+		text-transform: uppercase;
+		float: none;
+		padding-left: 10px;
+	}
 	.wrapper section.bg-text-area .bg-text {
 		background-size: 100% 50%;
 		padding: 50px 55px;
@@ -657,6 +731,8 @@
 	/* MENU UG */
 	.wrapper header.header .menu ul {
 		float: left;
+		margin-right: 200px;
+		padding: 4px;
 	}
 
 	.wrapper header.header .menu ul li {
@@ -745,17 +821,25 @@
 		margin-left: 0px;
 	}
 	/* EL PIESITO */
-
+	.wrapper footer.footer .footer-menu {
+		visibility: hidden;
+		display: none;
+		position: static;
+	}
 	.wrapper footer.footer .footer-menu ul {
 		line-height: 100px;
 		text-align: center;
+		display: inline-block;
+		display: none;
+		visibility: hidden;
 	}
 
 	.wrapper footer.footer .footer-menu ul li {
 		display: inline;
 		list-style: outside none none;
-		margin: 0;
-		padding: 0px;
+		margin: 10px;
+		padding: 10px;
+		visibility: hidden;
 	}
 
 	.wrapper footer.footer .footer-menu ul li a {
@@ -765,13 +849,15 @@
 		font-weight: 600;
 		line-height: 70px;
 		margin-left: 10px;
-		padding: 0px;
+		padding: 10px;
+		visibility: hidden;
 	}
 
 	.wrapper footer.footer .footer-icon p {
-		float: none;
+		float: left;
 		line-height: 1px;
 		text-align: center;
+		visibility: hidden;
 	}
 
 	.wrapper footer.footer .footer-icon p i {
@@ -780,5 +866,11 @@
 		margin-right: 0px;
 		padding: 10px;
 		float: none;
+		visibility: hidden;
+	}
+	.formulario {
+		position: absolute;
+		display: none;
+		visibility: hidden;
 	}
 }
