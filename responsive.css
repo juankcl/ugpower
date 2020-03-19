@@ -823,14 +823,14 @@
 	/* EL PIESITO */
 	.wrapper footer.footer .footer-menu {
 		visibility: hidden;
-		display: none;
+
 		position: static;
 	}
 	.wrapper footer.footer .footer-menu ul {
 		line-height: 100px;
 		text-align: center;
 		display: inline-block;
-		display: none;
+
 		visibility: hidden;
 	}
 
@@ -870,7 +870,6 @@
 	}
 	.formulario {
 		position: absolute;
-		display: none;
 		visibility: hidden;
 	}
 }
